@@ -2,8 +2,25 @@ export default function Home() {
   return (
     <>
       <div className="top-bar">
+        <button className="top-book-button" type="button">
+          Book Now
+        </button>
+      </div>
+
+      <header className="site-header" aria-label="Main navigation">
+        <a className="brand" href="/" aria-label="Doggy Splash Club home">
+          <span className="brand-mark" aria-hidden="true">
+            DSC
+          </span>
+          <span>Doggy Splash Club</span>
+        </a>
+        <nav className="nav-links" aria-label="Primary">
+          <a href="#sessions">Sessions</a>
+          <a href="#safety">Safety</a>
+          <a href="#contact">Contact</a>
+        </nav>
         <a
-          className="location-link"
+          className="location-link header-location"
           href="https://www.google.com/maps/search/?api=1&query=Kings+Langley"
           target="_blank"
           rel="noreferrer"
@@ -32,23 +49,6 @@ export default function Home() {
           </svg>
           <span>Kings Langley</span>
         </a>
-        <button className="top-book-button" type="button">
-          Book Now
-        </button>
-      </div>
-
-      <header className="site-header" aria-label="Main navigation">
-        <a className="brand" href="/" aria-label="Doggy Splash Club home">
-          <span className="brand-mark" aria-hidden="true">
-            DSC
-          </span>
-          <span>Doggy Splash Club</span>
-        </a>
-        <nav className="nav-links" aria-label="Primary">
-          <a href="#sessions">Sessions</a>
-          <a href="#safety">Safety</a>
-          <a href="#contact">Contact</a>
-        </nav>
       </header>
 
       <main>
