@@ -30,17 +30,6 @@ a {
   color: inherit;
 }
 
-.top-bar {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 16px;
-  min-height: 44px;
-  padding: 8px clamp(20px, 5vw, 72px);
-  color: var(--white);
-  background: var(--ink);
-}
-
 .header-contact-link {
   display: inline-flex;
   align-items: center;
@@ -62,7 +51,7 @@ a {
   flex: 0 0 auto;
 }
 
-.top-book-button {
+.header-book-button {
   min-height: 32px;
   padding: 7px 14px;
   border: 0;
@@ -138,7 +127,7 @@ a {
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 0.86fr) minmax(320px, 1.14fr);
-  min-height: calc(100vh - 121px);
+  min-height: calc(100vh - 77px);
 }
 
 .hero-copy {
@@ -389,11 +378,7 @@ h3 {
 }
 
 @media (max-width: 520px) {
-  .top-bar {
-    padding-block: 9px;
-  }
-
-  .top-book-button {
+  .header-book-button {
     min-width: 92px;
   }
 
