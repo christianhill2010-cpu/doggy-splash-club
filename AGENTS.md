@@ -26,6 +26,7 @@
 - Node.js LTS was installed with `winget` during setup.
 - In PowerShell, use `npm.cmd` instead of `npm` if execution policy blocks `npm.ps1`.
 - `node_modules/` and `.next/` are local build artifacts and should not be committed.
+- Booking widget is configured in `app/components/SimplyBookWidget.tsx`.
 
 ## Working Guidelines
 

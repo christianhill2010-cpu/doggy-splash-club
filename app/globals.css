@@ -52,6 +52,9 @@ a {
 }
 
 .header-book-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   min-height: 32px;
   padding: 7px 14px;
   border: 0;
@@ -61,7 +64,11 @@ a {
   font: inherit;
   font-size: 0.88rem;
   font-weight: 900;
-  cursor: default;
+  text-decoration: none;
+}
+
+.header-book-button:hover {
+  background: #f7a93f;
 }
 
 .site-header {
@@ -335,6 +342,47 @@ h3 {
 
 .contact-band p {
   margin-top: 14px;
+}
+
+.booking-page {
+  min-height: calc(100vh - 77px);
+  background: var(--foam);
+}
+
+.booking-intro {
+  max-width: 980px;
+  padding: clamp(44px, 7vw, 76px) clamp(20px, 5vw, 72px) 24px;
+}
+
+.booking-intro h1 {
+  max-width: 780px;
+  font-size: clamp(2.2rem, 5vw, 4.5rem);
+}
+
+.booking-intro p:not(.eyebrow) {
+  max-width: 640px;
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-size: 1.08rem;
+}
+
+.booking-widget-section {
+  padding: 0 clamp(20px, 5vw, 72px) clamp(54px, 8vw, 94px);
+}
+
+.simplybook-widget-host {
+  min-height: 820px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  overflow: hidden;
+}
+
+.simplybook-widget-host iframe {
+  display: block;
+  width: 100%;
+  min-height: 820px;
+  border: 0;
 }
 
 @media (max-width: 860px) {

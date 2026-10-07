@@ -16,6 +16,13 @@ The current site is a single-page Next.js site. The homepage contains these sect
 - Safety: `#safety`
 - Contact: `#contact`
 
+### Booking `/book`
+
+Booking page for the SimplyBook.me widget.
+
+- Uses the SimplyBook.me script widget configured in `app/components/SimplyBookWidget.tsx`.
+- Booking account URL: `https://thedoggysplashclub.simplybook.it`
+
 ## Current Navigation
 
 - Brand/logo: `/`
@@ -24,7 +31,7 @@ The current site is a single-page Next.js site. The homepage contains these sect
 - Contact: `#contact`
 - Header location: Google Maps search for Kings Langley.
 - Header email: `mailto:hello@thedoggysplashclub.co.uk`
-- Header Book Now button: currently not linked to a booking destination.
+- Header Book Now button: `/book`
 
 ## Current Links and CTAs
 
@@ -32,14 +39,13 @@ The current site is a single-page Next.js site. The homepage contains these sect
 - Secondary hero CTA: `#sessions`
 - Email CTA: `mailto:hello@thedoggysplashclub.co.uk`
 - Header email CTA: `mailto:hello@thedoggysplashclub.co.uk`
-- Header Book Now button: currently not linked to a booking destination.
+- Header Book Now button: `/book`
 
 ## Future Decisions
 
-- Decide where the Book Now button should go.
 - Refine the location link when the exact maps/listing URL is ready.
 - Confirm the preferred contact email before launch changes.
-- Add booking software, a booking page, or a contact form if needed.
+- Test the booking widget on mobile before launch.
 - Add more pages only when the content needs it; the current site can stay single-page for now.
 
 ## Change Checklist
