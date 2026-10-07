@@ -41,7 +41,7 @@ a {
   background: var(--ink);
 }
 
-.location-link {
+.header-contact-link {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -51,11 +51,12 @@ a {
   text-decoration: none;
 }
 
-.location-link:hover {
+.header-contact-link:hover {
   color: var(--ink);
 }
 
-.location-icon {
+.location-icon,
+.contact-icon {
   width: 18px;
   height: 18px;
   flex: 0 0 auto;
@@ -90,6 +91,10 @@ a {
 
 .header-location {
   margin-left: auto;
+  white-space: nowrap;
+}
+
+.header-contact-link:not(.header-location) {
   white-space: nowrap;
 }
 
@@ -353,6 +358,10 @@ h3 {
     margin-left: 0;
   }
 
+  .header-contact-link {
+    max-width: 100%;
+  }
+
   .hero,
   .section-heading,
   .split-section {
@@ -394,6 +403,11 @@ h3 {
     flex-wrap: wrap;
     gap: 10px;
     font-size: 0.86rem;
+  }
+
+  .header-contact-link {
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
 
   .hero-copy {

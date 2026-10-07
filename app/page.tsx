@@ -1,12 +1,6 @@
 export default function Home() {
   return (
     <>
-      <div className="top-bar">
-        <button className="top-book-button" type="button">
-          Book Now
-        </button>
-      </div>
-
       <header className="site-header" aria-label="Main navigation">
         <a className="brand" href="/" aria-label="Doggy Splash Club home">
           <span className="brand-mark" aria-hidden="true">
@@ -20,7 +14,7 @@ export default function Home() {
           <a href="#contact">Contact</a>
         </nav>
         <a
-          className="location-link header-location"
+          className="header-contact-link header-location"
           href="https://www.google.com/maps/search/?api=1&query=Kings+Langley"
           target="_blank"
           rel="noreferrer"
@@ -49,6 +43,37 @@ export default function Home() {
           </svg>
           <span>Kings Langley</span>
         </a>
+        <a
+          className="header-contact-link"
+          href="mailto:hello@thedoggysplashclub.co.uk"
+          aria-label="Email Doggy Splash Club"
+        >
+          <svg
+            className="contact-icon"
+            aria-hidden="true"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M4 6h16v12H4V6Z"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="m4 7 8 6 8-6"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+          <span>hello@thedoggysplashclub.co.uk</span>
+        </a>
+        <button className="header-book-button" type="button">
+          Book Now
+        </button>
       </header>
 
       <main>
@@ -130,7 +155,7 @@ export default function Home() {
               availability and what to bring.
             </p>
           </div>
-          <a className="button button-primary" href="mailto:hello@doggysplashclub.co.uk">
+          <a className="button button-primary" href="mailto:hello@thedoggysplashclub.co.uk">
             Email us
           </a>
         </section>

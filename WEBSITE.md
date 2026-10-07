@@ -23,12 +23,14 @@ The current site is a single-page Next.js site. The homepage contains these sect
 - Safety: `#safety`
 - Contact: `#contact`
 - Header location: Google Maps search for Kings Langley.
+- Header email: `mailto:hello@thedoggysplashclub.co.uk`
 
 ## Current Links and CTAs
 
 - Primary hero CTA: `#contact`
 - Secondary hero CTA: `#sessions`
-- Email CTA: `mailto:hello@doggysplashclub.co.uk`
+- Email CTA: `mailto:hello@thedoggysplashclub.co.uk`
+- Header email CTA: `mailto:hello@thedoggysplashclub.co.uk`
 - Top bar Book Now button: currently not linked to a booking destination.
 
 ## Future Decisions
