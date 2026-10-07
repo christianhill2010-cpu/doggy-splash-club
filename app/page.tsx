@@ -1,6 +1,42 @@
 export default function Home() {
   return (
     <>
+      <div className="top-bar">
+        <a
+          className="location-link"
+          href="https://www.google.com/maps/search/?api=1&query=Kings+Langley"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="View Doggy Splash Club location in Kings Langley"
+        >
+          <svg
+            className="location-icon"
+            aria-hidden="true"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M12 21s7-5.4 7-12a7 7 0 1 0-14 0c0 6.6 7 12 7 12Z"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M12 12.25a2.75 2.75 0 1 0 0-5.5 2.75 2.75 0 0 0 0 5.5Z"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+          <span>Kings Langley</span>
+        </a>
+        <button className="top-book-button" type="button">
+          Book Now
+        </button>
+      </div>
+
       <header className="site-header" aria-label="Main navigation">
         <a className="brand" href="/" aria-label="Doggy Splash Club home">
           <span className="brand-mark" aria-hidden="true">
