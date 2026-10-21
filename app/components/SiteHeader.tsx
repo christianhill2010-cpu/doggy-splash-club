@@ -1,11 +1,11 @@
 export default function SiteHeader() {
   return (
     <header className="site-header" aria-label="Main navigation">
-      <a className="brand" href="/" aria-label="Doggy Splash Club home">
+      <a className="brand" href="/" aria-label="The Doggy Splash Club home">
         <span className="brand-mark" aria-hidden="true">
           DSC
         </span>
-        <span>Doggy Splash Club</span>
+        <span>The Doggy Splash Club</span>
       </a>
       <nav className="nav-links" aria-label="Primary">
         <a href="/#sessions">Sessions</a>
