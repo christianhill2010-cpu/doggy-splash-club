@@ -35,9 +35,6 @@ export default function DogWalkingPage() {
               </div>
             </dl>
             <p>Up to 4 dogs per session.</p>
-            <a className="button button-primary" href="mailto:hello@thedoggysplashclub.co.uk?subject=Private%20secure%20dog%20walking%20field%20enquiry">
-              Enquire about a session
-            </a>
           </article>
 
           <article className="session-card pricing-card">
