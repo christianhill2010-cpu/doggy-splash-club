@@ -1,10 +1,11 @@
+import Image from "next/image";
+import logo from "../../assets/doggysplashclub.png";
+
 export default function SiteHeader() {
   return (
     <header className="site-header" aria-label="Main navigation">
       <a className="brand" href="/" aria-label="The Doggy Splash Club home">
-        <span className="brand-mark" aria-hidden="true">
-          DSC
-        </span>
+        <Image className="brand-mark" src={logo} alt="" width={80} height={80} priority />
         <span>The Doggy Splash Club</span>
       </a>
       <nav className="nav-links" aria-label="Primary">
