@@ -8,18 +8,19 @@ export default function Home() {
       <main>
         <section className="hero">
           <div className="hero-copy">
-            <p className="eyebrow">Safe, supervised dog swims</p>
-            <h1>A clean, friendly pool built for happy dogs.</h1>
+            <p className="eyebrow">Private swimming &amp; secure walking</p>
+            <h1>A private dog swimming pool. A private, secure dog walking field.</h1>
             <p className="hero-text">
-              Private swimming sessions for dogs who love water, need gentle exercise,
-              or are taking their first splash with patient support.
+              Make a splash in our private dog swimming pool or enjoy time to
+              sniff and explore in our private, secure dog walking field in Kings
+              Langley. Two ways to keep your dogs active and happy.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#contact">
                 Ask about booking
               </a>
-              <a className="button button-secondary" href="#sessions">
-                View sessions
+              <a className="button button-secondary" href="/dog-walking">
+                Explore the walking field
               </a>
             </div>
           </div>
@@ -32,8 +33,8 @@ export default function Home() {
             <p>Private sessions available for nervous, young, or first-time swimmers.</p>
           </div>
           <div>
-            <span className="stat">Warm</span>
-            <p>A calm indoor space designed around comfort, cleanliness, and confidence.</p>
+            <span className="stat">Private &amp; secure</span>
+            <p>A private, secure dog walking field with one-hour sessions for up to 4 dogs.</p>
           </div>
           <div>
             <span className="stat">Easy</span>
@@ -78,9 +79,10 @@ export default function Home() {
         <section className="contact-band" id="contact">
           <div>
             <p className="eyebrow">Now taking enquiries</p>
-            <h2>Ready to plan your dog&apos;s first swim?</h2>
+            <h2>Ready to plan your dog&apos;s next swim or walk?</h2>
             <p>
-              Send a few details about your dog and preferred dates. We will reply with
+              Tell us whether you would like a swim or a walking field session, along
+              with a few details about your dog and preferred dates. We will reply with
               availability and what to bring.
             </p>
           </div>
