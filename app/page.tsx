@@ -34,7 +34,10 @@ export default function Home() {
           </div>
           <div>
             <span className="stat">Private &amp; secure</span>
-            <p>A private, secure dog walking field with one-hour sessions for up to 4 dogs.</p>
+            <p>
+              Around 1.5 acres with a fully secured perimeter and private car
+              parking for up to 2 vehicles. One-hour walking sessions for up to 4 dogs.
+            </p>
           </div>
           <div>
             <span className="stat">Easy</span>
