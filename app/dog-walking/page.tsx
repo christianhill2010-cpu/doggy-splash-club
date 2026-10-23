@@ -48,10 +48,7 @@ export default function DogWalkingPage() {
               <li>A fully secured perimeter.</li>
               <li>Private car parking for up to 2 vehicles.</li>
             </ul>
-            <p>
-              Contact us with your preferred date, time and number of dogs to
-              enquire about availability for the private secure walking field.
-            </p>
+            <a className="button button-primary" href="/book">Book Now</a>
             <a className="button button-secondary" href="/pricing">View all prices</a>
           </article>
         </section>
