@@ -10,6 +10,7 @@ export default function SiteHeader() {
       </a>
       <nav className="nav-links" aria-label="Primary">
         <a href="/#sessions">Sessions</a>
+        <a href="/dog-walking">Secure Dog Walking</a>
         <a href="/pricing">Pricing</a>
         <a href="/#safety">Safety</a>
         <a href="/#contact">Contact</a>
