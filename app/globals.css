@@ -60,7 +60,7 @@ a {
   border: 0;
   border-radius: 8px;
   color: var(--ink);
-  background: var(--sun);
+  background: #add8e6;
   font: inherit;
   font-size: 0.88rem;
   font-weight: 900;
@@ -68,7 +68,7 @@ a {
 }
 
 .header-book-button:hover {
-  background: #f7a93f;
+  background: #87ceeb;
 }
 
 .site-header {
