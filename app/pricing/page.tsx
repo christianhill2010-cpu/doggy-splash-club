@@ -50,7 +50,7 @@ export default function PricingPage() {
               </div>
             </dl>
             <p>Up to 4 dogs per session.</p>
-            <a className="button button-secondary" href="mailto:hello@thedoggysplashclub.co.uk?subject=Private%20secure%20walking%20enquiry">Enquire about walking</a>
+            <a className="button button-secondary" href="/book">Book Secure Walking</a>
           </article>
         </section>
 
