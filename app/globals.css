@@ -424,6 +424,23 @@ h3 {
   color: var(--water-dark);
 }
 
+.bulk-booking-box {
+  margin-top: 24px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #e9f7f5;
+}
+
+.bulk-booking-box .price-list {
+  margin: 12px 0 0;
+}
+
+.bulk-booking-box .price-list > div {
+  padding: 0;
+  border: 0;
+}
+
 @media (max-width: 860px) {
   .site-header {
     align-items: flex-start;

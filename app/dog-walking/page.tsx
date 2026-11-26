@@ -35,6 +35,16 @@ export default function DogWalkingPage() {
               </div>
             </dl>
             <p>Up to 4 dogs per session.</p>
+            <div className="bulk-booking-box">
+              <h3>Bulk booking</h3>
+              <dl className="price-list">
+                <div>
+                  <dt>5 sessions, 1 hour each</dt>
+                  <dd>Weekdays <strong>£50 — save £10!</strong></dd>
+                  <dd>Weekends <strong>£70 — save £10!</strong></dd>
+                </div>
+              </dl>
+            </div>
           </article>
 
           <article className="session-card pricing-card">
